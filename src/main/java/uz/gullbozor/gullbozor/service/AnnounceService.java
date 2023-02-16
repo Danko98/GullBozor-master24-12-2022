@@ -265,7 +265,7 @@ public class AnnounceService {
             announceRepo.deleteAll();
             return new ApiResponse("Barcha elonlar o'chirib yuborlidi",true);
         }else
-            return new ApiResponse("pin xati",false);
+            return new ApiResponse("pin xato",false);
 
     }
 
